@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* 이따가 지우자 */
+.wrap{
+  width: 100%;
+  background-color: red;
+}
+.header{
+  background-color: yellow;
+}
+.banner{
+  background-color: gray;
+}
+.contents{
+  background-color: green;
+}
+.footer{background-color: pink;}
+.wrap{
+  width: 100%;}
+.header{
+  width: 200px;
+  height: 850px;
+}
+.banner{
+  width: calc(100% - 200px);
+  height: 400px;
+}
+.contents{
+  width: calc(100% - 200px);
+  height: 450px;
+}
+.footer{
+  height: 120px;
+}
